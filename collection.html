@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Collection</title>
+</head>
+<body class="grey lighten-3">
+  <div class="container">
+    <h1 class="purple-text">Collection</h1>
+
+    <!--  Collections -->
+    <h4 class="grey-text">Basic</h4>
+    <ul class="collection">
+      <li class="collection-item">Alvin</li>
+      <li class="collection-item">Alvin</li>
+      <li class="collection-item">Alvin</li>
+      <li class="collection-item">Alvin</li>
+    </ul>
+
+    <!-- Links -->
+    <div class="collection">
+      <a href="https://materializecss.com/collections.html" class="collection-item active" target="_blank">Alvin</a>
+      <a href="index.html" class="collection-item">Alvin</a>
+      <a href="" class="collection-item">Alvin</a>
+      <a href="" class="collection-item">Alvin</a>
+    </div>
+    <!-- Floating Action Button -->
+
+    <div class="fixed-action-btn toolbar">
+      <a href="#!" class="btn btn-floating btn-large purple">
+        <i class="material-icons">mode_edit</i>
+      </a>
+      <ul>
+        <li>
+          <a href="" class="grey lighten-3">
+            <i class="material-icons black-text">adb</i>
+          </a>
+        </li>
+        <li>
+          <a href="" class="purple">
+            <i class="material-icons">airplay</i>
+          </a>
+        </li>
+        <li>
+          <a href="" class="cyan">
+            <i class="material-icons">android</i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+ 
+  <section class="section">
+    <div class="row">
+      <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="card-panel grey lighten-5 z-depth-5">
+          <div class="row valign-wrapper">
+            <div class="col s2">
+              <img src="images/img.1.jpg" alt="Pizza" class="responsive-img circle">
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+                This is a square image. Add the "circle" class to it to make it appear circular.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12">
+        <div class="video-container">
+          <iframe width="1040" height="585" src="https://www.youtube.com/embed/uPklMSpmvGs" title="Moira - Babalik Sa'yo (Official Live Performance)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      // Floating Action Button Init
+      $('.fixed-action-btn').floatingActionButton({
+        toolbarEnabled: true,
+        hoverEnabled: false
+      });  
+    });
+
+   
+  </script>
+</body>
+</html>
